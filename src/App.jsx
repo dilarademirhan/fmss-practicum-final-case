@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
 import SearchStarship from './components/SearchStarship'
 import StarshipDetail from './components/StarshipDetail'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from 'react-router-dom'
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
       </Router>
     </>
   )
-
 }
 
 export default App
